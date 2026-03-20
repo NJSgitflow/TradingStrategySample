@@ -43,7 +43,7 @@ This repository contains a comprehensive end-to-end machine learning pipeline fo
 TradingStrategySample/
 │
 ├── data/                               # Contains the anonymized dummy dataset (.csv)
-├── Trading_Strategy_Pipeline.ipynb     # The main notebook containing the entire ML and Backtest workflow
+├── NJS_Trading_Strat_ShowCase.ipynb     # The main notebook containing the entire ML and Backtest workflow
 ├── requirements.txt                    # Python dependencies (pandas, scikit-learn, statsmodels, etc.)
 ├── LICENSE                             # MIT License
 └── README.md                           # Project documentation
