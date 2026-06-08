@@ -18,7 +18,7 @@ This repository contains a comprehensive end-to-end machine learning pipeline fo
 
 2. **Rigorous Statistical Analysis (FDR)**
    - Addressed the Multiple Comparisons Problem across the generated features.
-   - Applied the **Benjamini-Hochberg procedure** to control the False Discovery Rate (FDR).
+   - Applied the Benjamini-Hochberg procedure to control the False Discovery Rate (FDR).
    - *Result:* Ensured features contain true statistical signal rather than noise before feeding them into the models.
 
 3. **Machine Learning Pipeline (Panel Data Approach)**
@@ -27,7 +27,7 @@ This repository contains a comprehensive end-to-end machine learning pipeline fo
    - Evaluated diverse algorithms: Linear/Ridge/Lasso Regressions, Logistic Regression, Random Forest, and Multi-Layer Perceptrons (MLP Regressor & Classifier).
 
 4. **Model Evaluation & Ensembling**
-   - Evaluated predictions using institutional quant metrics: **Information Coefficient (IC)**, **Rank IC (Spearman)**, and Hit Rate.
+   - Evaluated predictions using institutional quant metrics: Information Coefficient (IC), Rank IC (Spearman), and Hit Rate.
    - Constructed a robust **Meta-Ensemble** by standardizing and aggregating the predictions of the base learners to reduce variance.
 
 5. **Backtesting & Monte Carlo Bootstrapping**
