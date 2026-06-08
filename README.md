@@ -27,12 +27,12 @@ This repository contains a comprehensive end-to-end machine learning pipeline fo
    - Evaluated diverse algorithms: Linear/Ridge/Lasso Regressions, Logistic Regression, Random Forest, and Multi-Layer Perceptrons (MLP Regressor & Classifier).
 
 4. **Model Evaluation & Ensembling**
-   - Evaluated predictions using institutional quant metrics: Information Coefficient (IC), Rank IC (Spearman), and Hit Rate.
+   - Evaluated predictions using institutional quant metrics: **Information Coefficient (IC), Rank IC (Spearman), and Hit Rate**.
    - Constructed a robust **Meta-Ensemble** by standardizing and aggregating the predictions of the base learners to reduce variance.
 
 5. **Backtesting & Monte Carlo Bootstrapping**
    - Simulated a continuous **Top-3 Long / Bottom-3 Short** portfolio strategy.
-   - Calculated comprehensive risk/return metrics (Sharpe, Sortino, Calmar, Max Drawdown).
+   - Calculated **comprehensive risk/return metrics** (Sharpe, Sortino, Calmar, Max Drawdown).
    - Validated the "Skill vs. Luck" factor using a **Bootstrapped Random Sampling ("Monkey Test")**, proving the Ensemble strategy ranks in the top percentiles of randomly generated portfolios out-of-sample.
 
 ---
